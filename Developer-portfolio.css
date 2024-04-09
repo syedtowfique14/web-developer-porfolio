@@ -17,6 +17,7 @@
 nav{
     display: flex;
     justify-content: space-between;
+    margin: 0px 150px;
 }
 
 body {
@@ -48,3 +49,18 @@ nav a {
     color: #474747;
 }
 
+/* header related styles */
+
+.header{
+    background-color: #fff8f3;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner img {
+    width: 500px;
+}
