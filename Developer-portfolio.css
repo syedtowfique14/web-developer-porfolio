@@ -25,6 +25,7 @@ body {
     sans-serif;
     font-family: 'Open Sans'
     sans-serif;
+    max-width: 1800px;
 }
 
 .nav-title{
@@ -53,7 +54,7 @@ nav a {
 
 .header{
     background-color: #fff8f3;
-    max-width: 1800px;
+    /* max-width: 1800px; */
 }
 
 .banner {
@@ -95,15 +96,22 @@ nav a {
 /* main section styles */
 
 main {
-    max-width: 1340px;
     margin: 0px auto;
 }
 
 .about{
-    padding: 130px;
+    padding: 110px;
     border-radius: 10px;
     background: #fff8f3;
     margin: 130px;
+}
+
+main > section {
+    margin-top: 130px;
+}
+
+.what-I-do-section {
+    margin: 160px;
 }
 
 .section-title {
@@ -126,8 +134,104 @@ main {
 
 .about-info {
     text-align: center;
+
 }
 
 #what-I-do {
     padding: 30px 150px;
 }
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+    margin: 150px;
+}
+
+.skill {
+    padding: 30px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 6px;
+}
+
+.skill.description {
+    color: #757575;
+}
+
+/* resume related styles */
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+    text-align: left;
+    margin: 130px;
+}
+
+.resume-colum {
+    
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.resume-colum--title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-item-institute {
+    margin-top: 0px;
+    margin-bottom: 20ox;
+}
+
+.resume-description hr {
+    margin: 30px;
+}
+
+.resume-item,
+.resume-description {
+    color: #757575;
+}
+
+.download-cv {
+    margin-top: 30px;
+}
+
+/* footer styles */
+
+footer {
+    display: flex;
+    background-color: #fff8f3;
+    padding: 130px 130px;
+    margin: 100px;
+    gap: 70px;
+}
+
+.social-links a {
+    margin-right: 25px;
+}
+
+.footer-colum {
+    width: 50%;
+}
+
+.footer-section-description {
+    text-align: left;
+}
+
+.contact textarea,
+input[type="text"], input[type="email"] {
+    padding: 18px 35px;
+    margin-bottom: 25px;
+    display: block;
+    width: 100%;
+    color: #757575;
+    background: #FFF;
+    border: 0;
+    border-radius: 8px;
+}
+
